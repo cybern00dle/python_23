@@ -36,6 +36,7 @@ if __name__ == '__main__':
     print(salary_obj.amount)
     print(salary_obj.currency)
 
+
     empl = Employee('1', '1', 1, Salary(10000, CURRENCIES.RUBLE))
     empl.set_salary(2000, CURRENCIES.DOLLAR)
     print(empl.get_salary(CURRENCIES.RUBLE))
